@@ -7,7 +7,7 @@ import PasswordGenerator from './components/PasswordGenerator'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/web_projcts/password_generator">
       <Navbar /> 
 
       <Routes>
